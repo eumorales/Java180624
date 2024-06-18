@@ -1,0 +1,19 @@
+package com.gilbertomorales.atividade1;
+
+public class Main {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro();
+        cachorro.setNome("Cusco");
+        cachorro.setIdade(5);
+        System.out.println("Nome: " + cachorro.getNome());
+        System.out.println("Idade: " + cachorro.getIdade());
+        cachorro.emitirSom();
+
+        Gato gato = new Gato();
+        gato.setNome("Gato");
+        gato.setIdade(3);
+        System.out.println("Nome: " + gato.getNome());
+        System.out.println("Idade: " + gato.getIdade());
+        gato.emitirSom();
+    }
+}
